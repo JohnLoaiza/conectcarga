@@ -316,16 +316,7 @@ class _UserListState extends State<UserList> {
     fetchUsers();
   }
 
-  void _pdf(var contexto,var id,) async {
-
-    await   showDialog(
-        context: contexto,
-        builder: (context) {
-          return WebviewFlutterPdf(id);
-        }
-    );
-  }
-
+  
 
   void _showAlertDialog(var titulo,var contenido,var contexto,var id,var valor,var origen,var destino,var peso,var volumen) async {
     await   showDialog(
@@ -351,13 +342,7 @@ class _UserListState extends State<UserList> {
                   EnviarAcepta(id);
                 },
               ),
-              RaisedButton(
-                child: Text("Manifiesto de carga", style: TextStyle(color: Colors.white),),
-                onPressed: (){
-                  Navigator.of(context, rootNavigator: true).pop('dialog');
-                  _pdf(context, id);
-                },
-              ),
+
               RaisedButton(
                 child: Text("Mostrar ", style: TextStyle(color: Colors.white),),
                 onPressed: (){

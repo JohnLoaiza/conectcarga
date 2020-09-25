@@ -333,6 +333,17 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
     super.initState();
     fetchUsers();
   }
+
+  void _pdf(var contexto,var id,) async {
+
+    await   showDialog(
+        context: contexto,
+        builder: (context) {
+          return WebviewFlutterPdf(id);
+        }
+    );
+  }
+
   void _showAlertDialog(var titulo,var contenido,var contexto,var id,var valor,var origen,var destino,var peso,var volumen) async {
     await   showDialog(
         context: contexto,
@@ -347,7 +358,7 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
               RaisedButton(
                 child: Text("CERRAR", style: TextStyle(color: Colors.white),),
                 onPressed: (){ Navigator.of(context, rootNavigator: true).pop('dialog');
-                 Navigator.push(context, MaterialPageRoute(builder: (context) => RateServiceChofer()));
+
                  },
               ),
               RaisedButton(
@@ -366,7 +377,14 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
                   openMapsSheet("https://waze.com/ul?q="+Uri.encodeComponent(origen));
 
                 },
-              )
+              ),
+              RaisedButton(
+                child: Text("Manifiesto de carga", style: TextStyle(color: Colors.white),),
+                onPressed: (){
+                  Navigator.of(context, rootNavigator: true).pop('dialog');
+                  _pdf(context, id);
+                },
+              ),
             ],
           );
         }
