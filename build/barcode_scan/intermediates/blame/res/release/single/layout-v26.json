@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/res/merged/release/layout-v26/abc_screen_toolbar.xml",
+        "source": "/home/jhon/.gradle/caches/transforms-2/files-2.1/37ec02f661e3547c5499ecdfd9f3cd1f/appcompat-1.1.0/res/layout-v26/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/res/merged/release/layout-v26/mtrl_calendar_month.xml",
+        "source": "/home/jhon/.gradle/caches/transforms-2/files-2.1/e515d40e627c4e0412a7c5fa3f288da9/material-1.1.0/res/layout-v26/mtrl_calendar_month.xml"
+    }
+]

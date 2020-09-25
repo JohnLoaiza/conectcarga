@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/res/merged/release/xml/standalone_badge_gravity_bottom_end.xml",
+        "source": "/home/jhon/.gradle/caches/transforms-2/files-2.1/e515d40e627c4e0412a7c5fa3f288da9/material-1.1.0/res/xml/standalone_badge_gravity_bottom_end.xml"
+    },
+    {
+        "merged": "/home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/res/merged/release/xml/standalone_badge.xml",
+        "source": "/home/jhon/.gradle/caches/transforms-2/files-2.1/e515d40e627c4e0412a7c5fa3f288da9/material-1.1.0/res/xml/standalone_badge.xml"
+    },
+    {
+        "merged": "/home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/res/merged/release/xml/standalone_badge_gravity_bottom_start.xml",
+        "source": "/home/jhon/.gradle/caches/transforms-2/files-2.1/e515d40e627c4e0412a7c5fa3f288da9/material-1.1.0/res/xml/standalone_badge_gravity_bottom_start.xml"
+    },
+    {
+        "merged": "/home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/res/merged/release/xml/standalone_badge_gravity_top_start.xml",
+        "source": "/home/jhon/.gradle/caches/transforms-2/files-2.1/e515d40e627c4e0412a7c5fa3f288da9/material-1.1.0/res/xml/standalone_badge_gravity_top_start.xml"
+    }
+]

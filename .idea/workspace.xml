@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f980a946-959e-411a-91e1-7062a1f7ac84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/MyPreferences.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/data/shared_preferences_helper.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/data/shared_preferences_helper.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vistas/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vistas/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vistas/my_trips.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vistas/my_trips.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vistas/my_trips2.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vistas/my_trips2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vistas/ordenes_online.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vistas/ordenes_online.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vistas/perfilCliente.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vistas/perfilCliente.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vistas/perfilConductor.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vistas/perfilConductor.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vistas/signup.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vistas/signup.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/vistas/signupC.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/vistas/signupC.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gs4fBlSfYkC1yzcSR2qiqXXeqX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Build Variants" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DesarrolloAzus\Flutter\conectcarga\lib\vistas" />
+      <recent name="D:\DesarrolloAzus\Flutter\conectcarga\android\app\src\main\res\drawable" />
+      <recent name="D:\DesarrolloAzus\Flutter\conectcarga\lib" />
+      <recent name="D:\DesarrolloAzus\Flutter\conectcarga\assets\images" />
+      <recent name="D:\DesarrolloAzus\Flutter\conectcarga\lib\tools" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f980a946-959e-411a-91e1-7062a1f7ac84" name="Default Changelist" comment="" />
+      <created>1586341879912</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586341879912</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="452" y="83" width="524" height="601" key="FileChooserDialogImpl" timestamp="1600800994171">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="452" y="83" width="524" height="601" key="FileChooserDialogImpl/72.27.1294.741/1366.0.1024.768@72.27.1294.741" timestamp="1599801744948" />
+    <state x="1767" y="58" key="FileChooserDialogImpl/72.27.1294.741/1366.0.1366.768@1366.0.1366.768" timestamp="1599497466722" />
+    <state x="452" y="83" width="524" height="636" key="FileChooserDialogImpl/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1600800994171" />
+    <state x="452" y="83" width="524" height="636" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1599677824284" />
+    <state width="1238" height="155" key="GridCell.Tab.0.bottom" timestamp="1601072648645">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1238" height="160" key="GridCell.Tab.0.bottom/72.27.1294.741/1366.0.1024.768@72.27.1294.741" timestamp="1599801746201" />
+    <state width="1310" height="168" key="GridCell.Tab.0.bottom/72.27.1294.741/1366.0.1366.768@1366.0.1366.768" timestamp="1600751538300" />
+    <state width="1238" height="155" key="GridCell.Tab.0.bottom/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1601072648645" />
+    <state width="1238" height="160" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1599677854197" />
+    <state width="1238" height="160" key="GridCell.Tab.0.bottom/72.27.2660.741@72.27.2660.741" timestamp="1598906803062" />
+    <state width="1238" height="155" key="GridCell.Tab.0.center" timestamp="1601072648645">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1238" height="160" key="GridCell.Tab.0.center/72.27.1294.741/1366.0.1024.768@72.27.1294.741" timestamp="1599801746201" />
+    <state width="1310" height="168" key="GridCell.Tab.0.center/72.27.1294.741/1366.0.1366.768@1366.0.1366.768" timestamp="1600751538300" />
+    <state width="1238" height="155" key="GridCell.Tab.0.center/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1601072648645" />
+    <state width="1238" height="160" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1599677854194" />
+    <state width="1238" height="160" key="GridCell.Tab.0.center/72.27.2660.741@72.27.2660.741" timestamp="1598906803061" />
+    <state width="1238" height="155" key="GridCell.Tab.0.left" timestamp="1601072648644">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1238" height="160" key="GridCell.Tab.0.left/72.27.1294.741/1366.0.1024.768@72.27.1294.741" timestamp="1599801746200" />
+    <state width="1310" height="168" key="GridCell.Tab.0.left/72.27.1294.741/1366.0.1366.768@1366.0.1366.768" timestamp="1600751538300" />
+    <state width="1238" height="155" key="GridCell.Tab.0.left/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1601072648644" />
+    <state width="1238" height="160" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1599677854193" />
+    <state width="1238" height="160" key="GridCell.Tab.0.left/72.27.2660.741@72.27.2660.741" timestamp="1598906803060" />
+    <state width="1238" height="155" key="GridCell.Tab.0.right" timestamp="1601072648645">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state width="1238" height="160" key="GridCell.Tab.0.right/72.27.1294.741/1366.0.1024.768@72.27.1294.741" timestamp="1599801746201" />
+    <state width="1310" height="168" key="GridCell.Tab.0.right/72.27.1294.741/1366.0.1366.768@1366.0.1366.768" timestamp="1600751538300" />
+    <state width="1238" height="155" key="GridCell.Tab.0.right/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1601072648645" />
+    <state width="1238" height="160" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1599677854197" />
+    <state width="1238" height="160" key="GridCell.Tab.0.right/72.27.2660.741@72.27.2660.741" timestamp="1598906803062" />
+    <state x="172" y="127" width="1094" height="541" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1601056744398">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="1472" y="104" width="1155" height="561" key="com.android.tools.idea.avdmanager.AvdListDialog/72.27.1294.741/1366.0.1366.768@1366.0.1366.768" timestamp="1600750137774" />
+    <state x="172" y="127" width="1094" height="541" key="com.android.tools.idea.avdmanager.AvdListDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1601056744398" />
+    <state x="1606" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1600785894789">
+      <screen x="1366" y="0" width="1366" height="768" />
+    </state>
+    <state x="299" y="186" key="com.intellij.ide.util.TipDialog/72.27.1294.741/1366.0.1024.768@72.27.1294.741" timestamp="1599760063166" />
+    <state x="1606" y="165" key="com.intellij.ide.util.TipDialog/72.27.1294.741/1366.0.1366.768@1366.0.1366.768" timestamp="1600785894789" />
+    <state x="299" y="186" key="com.intellij.ide.util.TipDialog/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1600455831873" />
+    <state x="299" y="186" key="com.intellij.ide.util.TipDialog/72.27.1294.741@72.27.1294.741" timestamp="1599676254259" />
+    <state x="374" y="27" width="855" height="642" key="find.popup" timestamp="1601072443616">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="72" y="126" width="855" height="642" key="find.popup/72.27.1294.741/1366.0.1024.768@72.27.1294.741" timestamp="1599801540002" />
+    <state x="1685" y="0" width="903" height="666" key="find.popup/72.27.1294.741/1366.0.1366.768@1366.0.1366.768" timestamp="1600748541554" />
+    <state x="374" y="27" width="855" height="642" key="find.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1601072443616" />
+    <state x="291" y="76" width="855" height="642" key="find.popup/72.27.1294.741@72.27.1294.741" timestamp="1599674925649" />
+    <state x="299" y="170" key="run.anything.popup" timestamp="1600801668469">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="299" y="170" key="run.anything.popup/72.27.1294.741/1366.0.1366.768@72.27.1294.741" timestamp="1600801668469" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/vistas/my_trips2.dart</url>
+          <line>318</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.109289646" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
