@@ -99,6 +99,7 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
             return Container(
 
               margin: EdgeInsets.only(top: 8, bottom: 0),
+
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
@@ -339,9 +340,18 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
     await   showDialog(
         context: contexto,
         builder: (context) {
-          return WebviewFlutterPdf(id);
+          return _launchURL(id);
         }
     );
+  }
+  _launchURL(var id) async {
+    String fin = '.pdf';
+    const url = 'https://conectcarga.com/servicios_pdf/';
+    if (await canLaunch(url+id+fin)) {
+      await launch(url+id+fin);
+    } else {
+      throw url+id+fin;
+    }
   }
 
   void _showAlertDialog(var titulo,var contenido,var contexto,var id,var valor,var origen,var destino,var peso,var volumen) async {
@@ -356,12 +366,14 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
             content: Text(""+contenido+"\nOrden: "+id+"\nValor: "+valor+"\nOrigen: "+origen+"\nDestino: "+destino+"\nPeso: "+peso+"\nVolumen: "+volumen),
             actions: <Widget>[
               RaisedButton(
+                color: Colors.blue,
                 child: Text("CERRAR", style: TextStyle(color: Colors.white),),
                 onPressed: (){ Navigator.of(context, rootNavigator: true).pop('dialog');
 
                  },
               ),
               RaisedButton(
+                color: Colors.blue,
                 child: Text("Escanear", style: TextStyle(color: Colors.white),),
                 onPressed: (){
                   Navigator.of(context, rootNavigator: true).pop('dialog');
@@ -371,6 +383,7 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
                 },
               ),
               RaisedButton(
+                color: Colors.blue,
                 child: Text("Mostrar Ruta", style: TextStyle(color: Colors.white),),
                 onPressed: (){
                  // openMapsSheet(context);
@@ -379,10 +392,11 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
                 },
               ),
               RaisedButton(
+                color: Colors.blue,
                 child: Text("Manifiesto de carga", style: TextStyle(color: Colors.white),),
                 onPressed: (){
                   Navigator.of(context, rootNavigator: true).pop('dialog');
-                  _pdf(context, id);
+                  _launchURL(id);
                 },
               ),
             ],
@@ -514,12 +528,41 @@ class _OrdenesOnlineState extends State<OrdenesOnline> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        actions: <Widget>[
+          RaisedButton(
+            color: Colors.white,
+            child: Text("Recomendacion", style: TextStyle(color: Colors.blue,fontSize: 10),),
+            onPressed: () {
+              _Recomend(context);
+            },
+          ),
+        ],
         title: Text('Ordenes En Curso'),
       ),
       body: Container(
         child: _buildList(),
       ),
 
+    );
+  }
+
+  void _Recomend(var contexto) async {
+    await   showDialog(
+        context: contexto,
+        builder: (context) {
+          return AlertDialog(
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(Radius.circular(32.0))),
+            contentPadding: EdgeInsets.only(top: 10.0,left: 20),
+            content: Text("Se recomienda abrir los" "\nmanifiestos de carga mediante" "\n Google Chorme", textAlign: TextAlign.center,),
+            actions: <Widget>[
+              RaisedButton(
+                child: Text("CERRAR", style: TextStyle(color: Colors.white),),
+                onPressed: (){ Navigator.of(context, rootNavigator: true).pop('dialog'); },
+              ),
+            ],
+          );
+        }
     );
   }
 

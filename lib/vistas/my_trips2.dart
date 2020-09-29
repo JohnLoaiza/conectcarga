@@ -330,12 +330,14 @@ class _UserListState extends State<UserList> {
             content: Text(""+contenido+"\nOrden: "+id+"\nValor: "+valor+"\nOrigen: "+origen+"\nDestino: "+destino+"\nPeso: "+peso+"\nVolumen: "+volumen),
             actions: <Widget>[
               RaisedButton(
+                color: Colors.blue,
                 child: Text("CERRAR", style: TextStyle(color: Colors.white),),
                 onPressed: (){ Navigator.of(context, rootNavigator: true).pop('dialog');
 
                  },
               ),
               RaisedButton(
+                color: Colors.blue,
                 child: Text("ACEPTAR", style: TextStyle(color: Colors.white),),
                 onPressed: (){
                   Navigator.of(context, rootNavigator: true).pop('dialog');
@@ -344,6 +346,7 @@ class _UserListState extends State<UserList> {
               ),
 
               RaisedButton(
+                color: Colors.blue,
                 child: Text("Mostrar ", style: TextStyle(color: Colors.white),),
                 onPressed: (){
                   //openMapsSheet("https://waze.com/ul?q="+Uri.encodeComponent(origen));
@@ -372,13 +375,6 @@ class _UserListState extends State<UserList> {
                 child: Text("CERRAR", style: TextStyle(color: Colors.white),),
                 onPressed: (){ Navigator.of(context, rootNavigator: true).pop('dialog'); },
               ),
-             /* RaisedButton(
-                child: Text("ACEPTAR", style: TextStyle(color: Colors.white),),
-                onPressed: (){
-                  Navigator.of(context, rootNavigator: true).pop('dialog');
-                 // EnviarAcepta(id);
-                },
-              )*/
               RaisedButton(
                 child: Text("Mostrar Ruta", style: TextStyle(color: Colors.white),),
                 onPressed: (){
@@ -763,8 +759,8 @@ class WebviewFlutterPdf extends StatelessWidget {
         await _controller.goForward();
       }
     }
-      String _orden = '#';
-    
+      String _orden = "https://oportuna.red/conectcarga/servicios_pdf/";
+      String pdf = ".pdf";
 
 
     @override 
@@ -772,12 +768,21 @@ class WebviewFlutterPdf extends StatelessWidget {
       return Scaffold(
         appBar: AppBar(
           title: Text('Orden $id'),
+          actions: <Widget>[
+            RaisedButton(
+              color: Colors.yellowAccent,
+              child: Text("Print"),
+              onPressed: () {
+                print(_orden+id+pdf);
+              },
+            )
+          ],
           centerTitle: true,
         ),
        body: SafeArea(
          child: WebView(
            key: Key('webview'),
-           initialUrl: "https://oportuna.red/conectcarga/servicios_pdf/$id.pdf",
+           initialUrl: "https://oportuna.red/conectcarga/servicios_pdf/",
            javascriptMode: JavascriptMode.unrestricted,
            onWebViewCreated: (WebViewController webViewController) {
              _controller = webViewController;
@@ -787,4 +792,31 @@ class WebviewFlutterPdf extends StatelessWidget {
       );
     }
 
-  }/**/
+  }
+
+  class Url extends StatelessWidget {
+  String id;
+
+  Url(this.id);
+  @override
+    Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: RaisedButton(
+          onPressed:
+            _launchURL(id),
+        ),
+      ),
+    );
+  }
+  }
+
+  _launchURL(var id) async {
+    String fin = '.pdf';
+  const url = 'https://conectcarga.com/servicios_pdf/';
+  if (await canLaunch(url+id+fin)) {
+    await launch(url+id+fin);
+  } else {
+    throw url+id+fin;
+  }
+}

@@ -1,4 +1,4 @@
-#Wed Sep 09 13:58:55 COT 2020
+#Tue Sep 29 11:19:24 COT 2020
 base.0=/home/jhon/Escritorio/conectcarga/build/app/intermediates/transforms/r8/release/0/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

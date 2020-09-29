@@ -127,6 +127,7 @@ class _SignUpState extends State<SignUp> {
               ),
               padding: EdgeInsets.only(right: 10, left: 10),
               child:  TextFormField(
+                obscureText: true,
                 textAlign: TextAlign.center,
                 controller: password,
                 onChanged: (value) {
@@ -134,7 +135,7 @@ class _SignUpState extends State<SignUp> {
                   _myPreferences.commit();
                 },
                 decoration: InputDecoration(
-                  labelText: 'Comtraseña',
+                  labelText: 'Contraseña',
                   labelStyle: TextStyle(),
                 ),
               ),
@@ -151,11 +152,13 @@ class _SignUpState extends State<SignUp> {
               ),
               padding: EdgeInsets.only(right: 10, left: 10),
               child:  TextFormField(
+                obscureText: true,
                 textAlign: TextAlign.center,
                 controller: re_password,
                 decoration: InputDecoration(
                   labelText: 'Repetir contraseña',
                   labelStyle: TextStyle(),
+
                 ),
               ),
             ),
