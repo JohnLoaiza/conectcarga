@@ -1,31 +1,31 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="net.citica.conectcarga"
+3    package="net.citica.conectcargav2"
 4    android:versionCode="1"
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
 8        android:minSdkVersion="18"
 8-->/home/jhon/Escritorio/conectcarga/android/app/src/main/AndroidManifest.xml
-9        android:targetSdkVersion="28" />
+9        android:targetSdkVersion="29" />
 9-->/home/jhon/Escritorio/conectcarga/android/app/src/main/AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.CAMERA" /> <!-- Include required permissions for Google Maps API to run. -->
 11-->[:barcode_scan] /home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/library_manifest/release/AndroidManifest.xml:7:5-65
 11-->[:barcode_scan] /home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/library_manifest/release/AndroidManifest.xml:7:22-62
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-12-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+12-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+12-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
 13    <uses-permission android:name="android.permission.INTERNET" />
-13-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
-13-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
+13-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+13-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:22-64
 14
 15    <uses-feature
-15-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+15-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 16        android:glEsVersion="0x00020000"
-16-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+16-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 17        android:required="true" />
-17-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+17-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 18    <!--
 19 io.flutter.app.FlutterApplication is an android.app.Application that
 20         calls FlutterMain.startInitialization(this); in its onCreate method.
@@ -38,7 +38,7 @@
 26        android:name="io.flutter.app.FlutterApplication"
 26-->/home/jhon/Escritorio/conectcarga/android/app/src/main/AndroidManifest.xml:9:9-57
 27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-27-->[androidx.core:core:1.1.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/c527b78844be871c44103f6f45a963fb/core-1.1.0/AndroidManifest.xml:24:18-86
+27-->[androidx.core:core:1.1.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/76f2b6439d16df60df3177021482ee5a/core-1.1.0/AndroidManifest.xml:24:18-86
 28        android:icon="@drawable/icono"
 28-->/home/jhon/Escritorio/conectcarga/android/app/src/main/AndroidManifest.xml:11:9-39
 29        android:label="conectcarga" >
@@ -91,27 +91,27 @@
 55-->[:barcode_scan] /home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/library_manifest/release/AndroidManifest.xml:10:9-84
 55-->[:barcode_scan] /home/jhon/Escritorio/conectcarga/build/barcode_scan/intermediates/library_manifest/release/AndroidManifest.xml:10:19-81
 56        <uses-library
-56-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+56-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
 57            android:name="org.apache.http.legacy"
-57-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+57-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
 58            android:required="false" />
-58-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/71410d59386dba98cbe61d29bc62f196/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+58-->[com.google.android.gms:play-services-maps:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/7752dcb5f35954b62a1d54735ffd34b4/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 59
 60        <activity
-60-->[com.google.android.gms:play-services-base:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+60-->[com.google.android.gms:play-services-base:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
 61            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-61-->[com.google.android.gms:play-services-base:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+61-->[com.google.android.gms:play-services-base:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
 62            android:exported="false"
-62-->[com.google.android.gms:play-services-base:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+62-->[com.google.android.gms:play-services-base:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
 63            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-63-->[com.google.android.gms:play-services-base:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/291563c6708268cf4683b088770f2b39/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+63-->[com.google.android.gms:play-services-base:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/a1794986c7a3c4986f9feb2359005476/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
 64
 65        <meta-data
-65-->[com.google.android.gms:play-services-basement:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/e626c6c25b1bbd3d3f9dc51f9110af8b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+65-->[com.google.android.gms:play-services-basement:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
 66            android:name="com.google.android.gms.version"
-66-->[com.google.android.gms:play-services-basement:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/e626c6c25b1bbd3d3f9dc51f9110af8b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+66-->[com.google.android.gms:play-services-basement:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
 67            android:value="@integer/google_play_services_version" />
-67-->[com.google.android.gms:play-services-basement:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/e626c6c25b1bbd3d3f9dc51f9110af8b/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+67-->[com.google.android.gms:play-services-basement:17.0.0] /home/jhon/.gradle/caches/transforms-2/files-2.1/294cc5ecc9001f3e94c034cd71f64fdf/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
 68    </application>
 69
 70</manifest>
